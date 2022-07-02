@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container{
+
+    width: 450px;
+    height: 450px;
+    background-color: red;
+    position: relative
+}
+.child{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
+#c1{
+    background-color: blue;
+    left: 0;
+    top:0;
+}
+#c2{
+    background-color: green;
+    right:0;
+    top:0;
+}
+#c3{
+    background-color: yellow;
+    left:0;
+    bottom: 0;
+}
+#c4{
+    background-color: rebeccapurple;
+    bottom: 0;
+    right:0;
+}
+#c5{
+    top:33%;
+    bottom: 33%;
+    left: 33%;
+    right: 33%;
+    background-color: rgb(255, 255, 255);
+}

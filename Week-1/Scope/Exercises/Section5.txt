@@ -1,0 +1,10 @@
+What will console log? Error
+Will there be an error? yes
+Why? found is used out of its scope
+Will something be undefined?no
+Why? found have a refference error due to being used out of its scope
+To what scope does each variable belong? doesUserExist,userExists to global scope
+users belong to function scope , "found" belongs to "if" scope
+Global or local? If local, to which specifically?
+doesUserExist,userExists to global scope
+users belong to function scope , "found" belongs to "if" scope all of those are local

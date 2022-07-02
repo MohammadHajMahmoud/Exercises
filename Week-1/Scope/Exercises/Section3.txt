@@ -1,0 +1,12 @@
+What will console log?
+Serverd a Special fish
+Serverd a Special lettuce plate
+Serverd a Special curious cheese
+Finished serving all the orders:fish,lettuce plate,curious cheese
+Will there be an error? no
+Why?
+Will something be undefined?no
+Why?
+To what scope does each variable belong? serveOrders and allOrders belong to global ,,specialOrder belgons to loop scope
+Global or local? If local, to which specifically?
+serveOrders and allOrders belong to global ,,specialOrder belgons to loop scope

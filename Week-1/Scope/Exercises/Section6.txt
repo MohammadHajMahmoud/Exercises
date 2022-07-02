@@ -1,0 +1,9 @@
+What will console log? eroor
+Will there be an error? yes
+Why? because makeEnough function is trying to assign a new value to a const variable
+Will something be undefined?no
+Why?
+To what scope does each variable belong? isEnough,makeEnough belong to global scope 
+Global or local? If local, to which specifically?
+isEnough,makeEnough belong to global scope 
+no locals

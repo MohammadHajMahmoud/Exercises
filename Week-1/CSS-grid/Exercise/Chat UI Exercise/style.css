@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(14, 1fr);
+  grid-template-rows: repeat(14, 1fr);
+  grid-template-areas:
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f c c c c c c c c c c c"
+    "f f f b b b b b b b b b s s";
+}
+
+.friends {
+  grid-area: f;
+  background-color: blueviolet;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+}
+.bar {
+  display: grid;
+  grid-area: b;
+}
+.send {
+  grid-area: s;
+  display: grid;
+  background-color: blueviolet;
+}
+button {
+  width: 100%;
+  height: 100%;
+  background-color: blueviolet;
+  border: none;
+  color: WHITE;
+}
+
+input {
+  width: 100%;
+  height: 100%;
+}
+.chat {
+  grid-area: c;
+  display: grid;
+  background-color: whitesmoke;
+  grid-template-columns: repeat(1, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  
+}
+
+.text-container{
+font-size: 28px;
+align-items: center;
+}
+
+.time{
+  font-size: 12px;
+}
+.friends{
+  
+}
+.fren{
+  display: flex;
+  padding: 7px;
+  margin-left: 12px;
+  height: 25px;
+  align-items: center;
+  border-radius: 3px;
+  background-color: rgb(164, 108, 216);
+}
+.right{
+  text-align: right;
+}

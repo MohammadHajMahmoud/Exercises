@@ -1,0 +1,57 @@
+body {
+  font-family: monospace;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+}
+#container {
+  height: 350px;
+  width: 400px;
+  background-color: rgb(98, 209, 176);
+  border: rgb(22, 156, 134) solid 5px;
+  border-radius: 5px;
+}
+#container1 {
+  padding: 25px;
+}
+input {
+  font-size: 17px;
+  height: 30px;
+  width: 100%;
+  font-family: monospace;
+}
+#salary {
+  width: 90%;
+}
+#birthday {
+  width: 100%;
+}
+.salbirth {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  position: relative;
+  width: 100%;
+  height: 60px;
+}
+button {
+  color: black;
+  background-color: rgb(48, 182, 148);
+  border: none;
+  border-radius: 7px;
+  height: 30px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  font-size: 17px;
+  font-family: monospace;
+}
+button:hover {
+  cursor: pointer;
+}
+#error {
+  color: red;
+  font-weight: bold;
+}

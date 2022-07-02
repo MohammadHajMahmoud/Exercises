@@ -1,0 +1,8 @@
+What will console log? Error
+Will there be an error? yes
+Why? cowSound is in a different Scope
+Will something be undefined? no
+Why?   cowSound is not defined due to having a refference error
+To what scope does each variable belong? cowsound belongs to if scope
+Global or local? If local, to which specifically?
+local to if scope

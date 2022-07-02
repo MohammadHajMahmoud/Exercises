@@ -1,0 +1,8 @@
+What will console log? Error
+Will there be an error?yes
+Why? const seed is used out of its scope
+Will something be undefined? no
+Why? seed is not defined due to being used in plant function
+To what scope does each variable belong? pot,getseed,plant to global ,,,seed belongs to getSeed
+Global or local? If local, to which specifically?
+pot,getseed,plant to global ,,,seed is local and it belongs to getSeed function

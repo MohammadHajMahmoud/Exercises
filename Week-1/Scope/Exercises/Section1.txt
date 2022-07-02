@@ -1,0 +1,9 @@
+What will console log?    Running // 8 times  ... finished running 8 miles
+Will there be an error? yes
+Why? because "distance" is used out of its scope 
+Will something be undefined?   no
+Why?    beacuse let has a reference error so its not defined
+To what scope does each variable belong? run belongs to global while distance for local
+Global or local? If local, to which specifically?
+run is global while distance is local to the for loop
+

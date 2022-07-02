@@ -1,0 +1,24 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    position: relative;
+    background-color: blue;
+    height: 450px;
+    width: 450px;
+}
+#c1{
+    height: 450px;
+    background-color: red;
+    width: 30px;
+    position: absolute;
+    left : 40px;
+}
+#c2{
+    height: 30px;
+    width: 450px;
+    background-color: red;
+    position: absolute;
+    top : 60px;
+}

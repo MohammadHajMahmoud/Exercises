@@ -1,0 +1,26 @@
+
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    padding: 5px;
+    position: relative;;
+    background-color: black ;
+    width: 414px;
+    height: 195px;
+}
+.child{
+   
+    background-color: #66320E;
+    width: 100px;
+    height: 90px;
+    display: inline-block;
+}
+#mid{
+  background-color: darkred;
+  height: 6px;
+  margin-bottom: 4px;
+  width: 100%px;
+
+}

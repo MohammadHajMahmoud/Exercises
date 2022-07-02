@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: blueviolet;
+    position: relative;
+    width: 750px;
+    height: 400px;
+    border-radius: 15px;
+}
+.child{
+    background-color: rgb(211, 199, 199);
+    width: 50px;
+    position: absolute;
+    bottom: 0;
+}
+#c1{
+    height: 60px;
+    left : 30px
+}
+#c2{
+    height: 220px ;
+    left: 120px;
+}
+#c3{
+    height: 350px;
+    left: 210px ;
+}
+#c4{
+    height: 320px;
+    left:300px;
+}
+#c5{
+    height: 290px;
+    left : 390px;
+}
+ #c6{
+    height: 200px;
+    left  : 480px;
+ }
+ #money{
+    font-size: larger;
+ position: absolute;
+ left : 20px;
+ }
+#time{
+    font-size: larger;
+    position: absolute;
+    right:60px;
+    bottom: 0;
+}

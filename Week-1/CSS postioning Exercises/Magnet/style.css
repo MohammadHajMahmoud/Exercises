@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: red;
+    height: 400px;
+    width: 600px;
+    position: relative;
+    border-radius: 16px;
+}
+.silver{
+    background-color: silver;
+    position: absolute;
+    top: 0;
+    height: 120px;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.white{
+    background-color: white;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+    margin: 0px 25%;
+    top: 0;
+    height: 300px;
+    width: 300px;
+}
