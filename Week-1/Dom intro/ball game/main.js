@@ -38,7 +38,7 @@ up.onclick = function () {
   ball.style.top = vertical + "px";
 };
 down.onclick = function () {
-    if (vertical >400) {
+    if (vertical >350) {
         vertical += 0;
       } else {
         vertical += 35;

@@ -1,0 +1,81 @@
+[{
+        "name": "cow",
+        "weight": "60-640kg",
+        "habitates": [" savannas", "scrub forests"],
+        "endangered": false,
+        "feed": {
+            "likes": [{
+                "mash": {
+                    "amount": 15
+                }
+            }, {
+                "grass": {
+                    "amount": 15
+                }
+            }],
+            "dislikes": ["meat", "bones"]
+        },
+        "predetors": ["lions", "tigers"],
+        "deleciousOf5": 5
+    },
+    {
+        "name": "Elephant",
+        "weight": "2700-6000kg",
+        "habitates": [" savannas", "south Africa"],
+        "endangered": true,
+        "feed": {
+            "likes": [{
+                "shrubs": {
+                    "amount": 50
+                }
+            }, {
+                "grass": {
+                    "amount": 50
+                }
+            }],
+            "dislikes": ["meat", "bones"]
+        },
+        "predetors": ["crocodiles", "lions"],
+        "deleciousOf5": 0
+    },
+    {
+        "name": "Gray Wolf",
+        "weight": "30-80kg",
+        "habitates": ["forests", "inland wetlands"],
+        "endangered": false,
+        "feed": {
+            "likes": [{
+                "meat": {
+                    "amount": 4
+                }
+            }, {
+                "bones": {
+                    "amount": 2
+                }
+            }],
+            "dislikes": ["meat", "bones"]
+        },
+        "predetors": ["crocodiles", "lions"],
+        "deleciousOf5": 0
+    },
+    {
+        "name": "Squirrel",
+        "weight": "453-680g",
+        "habitates": [" tropical rainforest", " semiarid desert"],
+        "endangered": false,
+        "feed": {
+            "likes": [{
+                "nuts": {
+                    "amount": "4-6"
+                }
+            }, {
+                "peanuts": {
+                    "amount": "7spoons"
+                }
+            }],
+            "dislikes": ["meat", "bones"]
+        },
+        "predetors": ["crocodiles", "lions"],
+        "deleciousOf5": 1
+    }
+]

@@ -1,0 +1,10 @@
+$(".generator").click(function(){
+    console.log($(this).parents().attr('id'))
+    console.log($(this).parents().closest('.computer').data('id'))
+    console.log($(this).parents().siblings(".BUS").text())
+})
+$(".validator").click(function(){
+    console.log($(this).text())
+    console.log($(this).parents().siblings('.MB').text())
+    console.log($(this).parent().parent().siblings(".processor").find('.QR').text())
+})
