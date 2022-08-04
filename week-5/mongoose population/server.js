@@ -58,20 +58,26 @@ let v2 = new Visitor({name : "saed",homePlanet :p4,visitedPlanets:[]})
 
 Visitor.find({}).populate("visitedPlanets").exec(function(err,visitors){
     for(let visitor of visitors ){
-       // console.log(visitor.visitedPlanets)
+      // console.log(visitor.visitedPlanets)
     }
 })
 
 Planet.find({}).populate("visitors").exec(function(err,planets){
     for(let planet of planets){
-      //console.log(planet.visitors)
+     // console.log(planet.visitors)
     }
 })
-SolarSystem.find({}).populate("visitors").exec(function(err,solarSys){
-    
+
+SolarSystem.find({}).populate({
+   path: "planets",
+   populate:{
+    path:"visitors"
+   }
+}).exec(function(err,Sol){
+    Sol.forEach(sol=>{
+        sol.planets.forEach(p=>p.visitors.forEach(visitor=>console.log(visitor.name)));
+    })
 })
-
-
 
 
 
