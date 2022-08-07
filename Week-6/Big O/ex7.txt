@@ -1,0 +1,1 @@
+let employees = {ax01 :['name' : Ray,'age':28,'salary':3000]}
